@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive FAQ Accordion | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="accordion">
+    <div class="image-box">
+      <img src="images/mainImg.png" alt="">
+    </div>
+    <div class="accordion-text">
+      <div class="title"><a href="/accueil/responsive-space-website/index.html">FAQ - Association EraH</a></div>
+    <ul class="faq-text">
+      <li>
+        <div class="question-arrow">
+          <span class="question">Quels jeux sont pris en charge par l'association esportive?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Nous soutenons une variété de jeux populaires dans la scène esportive. Actuellement, nos principales sections incluent des équipes compétitives pour des jeux tels que Valorant, MW3. Cependant, nous sommes ouverts à l'expansion en fonction des intérêts de nos membres.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Comment l'association soutient-elle le développement des compétences des membres?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Nous encourageons activement le développement des compétences en fournissant des séances d'entraînement, des ateliers stratégiques et en favorisant la collaboration entre les membres. Nous croyons en la croissance collective et individuelle, que ce soit sur le plan du jeu ou des compétences liées à l'esport.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Quelles ressources l'association esportive met-elle à disposition pour aider les membres à améliorer leurs compétences individuelles et d'équipe?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Nous proposons des séances d'entraînement, des analyses de parties, et des ressources éducatives pour aider nos membres à progresser. Des coachs qualifiés sont également disponibles pour offrir un soutien personnalisé.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Comment l'association esportive s'implique-t-elle dans la communauté locale en dehors du monde du jeu vidéo?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Nous organisons des initiatives caritatives, des événements communautaires et des partenariats avec des organisations locales. Notre objectif est de contribuer positivement à la société et de renforcer les liens avec la communauté qui nous entoure.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Quels sont les projets futurs de l'association esportive pour étendre ses activités?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Nous avons l'intention de diversifier nos activités en explorant de nouveaux jeux, en élargissant nos partenariats et en développant des programmes éducatifs. Nous restons attentifs aux retours de nos membres pour orienter nos projets futurs.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Comment l'association esportive s'adapte-t-elle aux évolutions rapides de l'industrie du jeu et de l'esport?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Nous restons constamment informés des tendances de l'industrie, nous ajustons nos activités en conséquence et nous investissons dans la formation continue de nos membres pour rester à la pointe.</p>
+        <span class="line"></span>
+      </li>
+    </ul>
+    <br>
+    <a href="#"> 
+      <button>
+        Postuler
+      </button>
+    </a>
+    </div>
+  </div>
+
+
+  <script>
+    let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+      li[i].addEventListener("click", (e)=>{
+        let clickedLi;
+        if(e.target.classList.contains("question-arrow")){
+          clickedLi = e.target.parentElement;
+        }else{
+          clickedLi = e.target.parentElement.parentElement;
+        }
+       clickedLi.classList.toggle("showAnswer");
+      });
+    }
+  </script>
+
+</body>
+</html>
