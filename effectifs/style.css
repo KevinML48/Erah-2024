@@ -259,28 +259,28 @@ body{
 	opacity: 0.2;
 }
 .case-study-images li:nth-child(1) .img-hero-background{
-	background-image: url("/assets/photo-administratif.jpeg");
+	background-image: url("/image/assets/photo-administratif.jpeg");
 }
 .case-study-images li:nth-child(2) .img-hero-background{
-	background-image: url("/assets/AdobeStock_499522842_Preview-1024x426.jpeg");
+	background-image: url("/image/assets/AdobeStock_499522842_Preview-1024x426.jpeg");
 }
 .case-study-images li:nth-child(3) .img-hero-background{
-	background-image: url("/assets/Et-vous-que-faites-vous-apres-une-poignee-de-main.jpg");
+	background-image: url("/image/assets/Et-vous-que-faites-vous-apres-une-poignee-de-main.jpg");
 }
 .case-study-images li:nth-child(4) .img-hero-background{
-	background-image: url("/assets/desktop-wallpaper-business-owners-leaders-finance-meeting.jpg");
+	background-image: url("/image/assets/desktop-wallpaper-business-owners-leaders-finance-meeting.jpg");
 }
 .case-study-images li:nth-child(5) .img-hero-background{
-	background-image: url("/assets/makbuk-noutbuk-planshet-ofisnoe-mesto-klaviatura-stol-macboo.jpg");
+	background-image: url("/image/assets/makbuk-noutbuk-planshet-ofisnoe-mesto-klaviatura-stol-macboo.jpg");
 }
 .case-study-images li:nth-child(6) .img-hero-background{
-	background-image: url("/assets/Graphistes.jpg");
+	background-image: url("/image/assets/Graphistes.jpg");
 }
 .case-study-images li:nth-child(7) .img-hero-background{
-	background-image: url("/assets/R.jpg");
+	background-image: url("/image/assets/R.jpg");
 }
 .case-study-images li:nth-child(8) .img-hero-background{
-	background-image: url("/assets/سياحة-علاجية.jpg");
+	background-image: url("/image/assets/سياحة-علاجية.jpg");
 }
 
 /* #Media
@@ -317,7 +317,7 @@ body{
     border-radius: 3px;
     background-position: center center;
     background-size: cover;
-    background-image: url('/assets/ERAH_Logo_sans_texte.png');
+    background-image: url('/image/assets/ERAH_Logo_sans_texte.png');
     box-shadow: 0 0 0 2px rgba(255,255,255,.3);
     transition: opacity .2s, border-radius .2s, box-shadow .2s;
     transition-timing-function: ease-out;
